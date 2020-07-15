@@ -1,0 +1,39 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    padding: 1rem;
+    grid-row-gap: 2rem ;
+}
+.card{
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+}
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.ant-btn-primary{
+    background: #D10029;
+    border-color:#D10029;
+}
+.ant-btn-primary:hover{
+    background: #a10121;
+    border-color:#a10121;
+}
+.Card__header-Icon{
+    height: 3rem;
+    width: 3rem;
+    grid-row: 1/ span 3;
+}
+.Card__header-text{
+    margin-bottom: 0;
+    color: rgb(0,0,0);
+    font-weight: 700;
+}
+.Card__Button{
+    width: 45%;
+}
